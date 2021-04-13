@@ -1,0 +1,72 @@
+.HomeTop {
+  margin-top: 2rem;
+  justify-content: space-between;
+  padding: 10px;
+  flex-direction: row;
+  margin: auto;
+  display: flex;
+}
+.ImageWrapper {
+  text-align: center;
+}
+.HomeImage {
+  transition: 1s;
+  transform: scale(1); /* vendorless fallback */
+  -o-transition: 1s; /* opera */
+  -ms-transition: 1s; /* IE 10 */
+  -moz-transition: 1s; /* Firefox */
+  -webkit-transition: 1s; /*safari and chrome */
+
+  width: 362px;
+  height: 300px;
+}
+.HomeImage:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.sectionTitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 70px;
+  font-weight: 550;
+  color: white;
+  line-height: 75px;
+}
+
+.sectionText {
+  line-height: 17px;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  text-align: left;
+}
+
+.sectionSubTitle {
+  font-size: 30px;
+  font-weight: 550;
+  color: white;
+}
+
+.Left {
+  margin: 10px;
+  width: 50%;
+}
+.midSection {
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .sectionTitle {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .HomeImage {
+    transition: 1s;
+    transform: scale(0.4);
+  }
+  .HomeImage:hover {
+    transform: rotate(25deg);
+  }
+  .ImageWrapper {
+    text-align: center;
+  }
+}

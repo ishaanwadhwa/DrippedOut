@@ -1,0 +1,126 @@
+.home {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  overflow-x: hidden;
+
+  width: 100%;
+  height: 100%;
+}
+.sectionTitle {
+  text-align: center;
+  padding-bottom: 5%;
+  font-family: monospace;
+  font-size: 70px;
+  font-weight: 550;
+  color: white;
+}
+.collection {
+  margin: 10%;
+}
+.homeInner {
+  text-align: center;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.Home {
+  margin-top: 3rem;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: rgb(231, 231, 231);
+  color: black;
+  line-height: 1.6;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#home2 {
+  height: fit-content;
+}
+
+section {
+  scroll-snap-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  min-height: 100vh;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  opacity: 50%;
+  padding: 0px;
+  margin-bottom: 50px;
+}
+
+.NavBarInner {
+  font-size: 15px;
+  display: flex;
+  box-sizing: border-box;
+  .navBarTitle {
+    padding: 10px;
+  }
+  .NavbarLinks {
+    margin: auto;
+    padding: 10px;
+    padding-right: 0px;
+  }
+  .NavbarLinks a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+  }
+}
+
+a:hover {
+  border-bottom: 1px rgb(0, 0, 0) solid;
+}
+li {
+  list-style-type: none;
+}
+a:hover .ulHover {
+  display: block;
+}
+ul.ulHover {
+  display: none;
+}
+a:hover ul {
+  display: block;
+}
+.footer {
+  scroll-snap-align: center;
+  background-color: grey;
+  height: 10vh;
+  align-self: flex-end;
+  padding: 0px;
+  margin: 0px;
+}
+a ul {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .NavBarInner {
+    font-size: 12px;
+    display: flex;
+    box-sizing: border-box;
+
+    .NavbarLinks {
+      margin: auto;
+      padding: 4px;
+    }
+    .NavbarLinks a {
+      text-align: center;
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      padding: 4px;
+    }
+  }
+}

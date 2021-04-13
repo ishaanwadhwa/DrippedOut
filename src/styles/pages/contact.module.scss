@@ -1,0 +1,13 @@
+.contact {
+  margin: 3rem 0rem;
+  padding: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .ContactInner {
+    display: block;
+  }
+  .contact {
+    margin: 15px 0px;
+    padding: 10px 0px;
+  }
+}

@@ -1,0 +1,39 @@
+.navbar {
+  position: fixed;
+  background-color: black;
+  opacity: 50%;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.NavBarInner {
+  font-size: 15px;
+  font-weight: 550;
+  display: flex;
+  box-sizing: border-box;
+  .navBarTitle {
+    padding: 10px;
+  }
+  .NavbarLinks {
+    margin: auto;
+    padding: 10px;
+    padding-right: 0px;
+  }
+  .NavbarLinks a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+    &.active {
+      border-color: #1b7dbc;
+    }
+
+    &:hover {
+      background-color: black;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.topText {
+  font-size: 40px;
+
+  font-family: monospace;
+  color: white;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  .topText {
+    margin: 2rem 0rem;
+  }
+}

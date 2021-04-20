@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/DrippedOut/static/css/main.59f8235e.chunk.css",
+    "main.js": "/DrippedOut/static/js/main.aea206fd.chunk.js",
+    "main.js.map": "/DrippedOut/static/js/main.aea206fd.chunk.js.map",
+    "runtime-main.js": "/DrippedOut/static/js/runtime-main.b414c0c8.js",
+    "runtime-main.js.map": "/DrippedOut/static/js/runtime-main.b414c0c8.js.map",
+    "static/css/2.280193e9.chunk.css": "/DrippedOut/static/css/2.280193e9.chunk.css",
+    "static/js/2.2d795310.chunk.js": "/DrippedOut/static/js/2.2d795310.chunk.js",
+    "static/js/2.2d795310.chunk.js.map": "/DrippedOut/static/js/2.2d795310.chunk.js.map",
+    "index.html": "/DrippedOut/index.html",
+    "static/css/2.280193e9.chunk.css.map": "/DrippedOut/static/css/2.280193e9.chunk.css.map",
+    "static/css/main.59f8235e.chunk.css.map": "/DrippedOut/static/css/main.59f8235e.chunk.css.map",
+    "static/js/2.2d795310.chunk.js.LICENSE.txt": "/DrippedOut/static/js/2.2d795310.chunk.js.LICENSE.txt",
+    "static/media/DripBKG.3f0ae269.mp4": "/DrippedOut/static/media/DripBKG.3f0ae269.mp4",
+    "static/media/maindrippedoutvideo.42767bdd.mp4": "/DrippedOut/static/media/maindrippedoutvideo.42767bdd.mp4",
+    "static/media/styles.css": "/DrippedOut/static/media/revicons.e8746a62.woff",
+    "static/media/yeezy.79e141c5.png": "/DrippedOut/static/media/yeezy.79e141c5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b414c0c8.js",
+    "static/css/2.280193e9.chunk.css",
+    "static/js/2.2d795310.chunk.js",
+    "static/css/main.59f8235e.chunk.css",
+    "static/js/main.aea206fd.chunk.js"
+  ]
+}

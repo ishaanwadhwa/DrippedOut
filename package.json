@@ -1,5 +1,6 @@
 {
   "name": "shoes",
+  "homepage": "https://ishaanwadhwa.github.io/DrippedOut",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -11,14 +11,17 @@ function NavBar(props) {
           <Link to="#home">Home</Link>
           <Link activeClassName={styles.active} to="#collection">
             Collection
-               </Link>
+          </Link>
           <Link activeClassName={styles.active} to="#contact_us">
             Contact Us
           </Link>
           <Link activeClassName={styles.active} to="#faq">
             FAQ
           </Link>
-          <Link activeClassName={styles.active} to="#blog"> Blog </Link>
+          <Link activeClassName={styles.active} to="#blog">
+            {" "}
+            Blog{" "}
+          </Link>
         </div>
       </div>
     </div>

@@ -10,10 +10,10 @@
 .sectionTitle {
   text-align: center;
   padding-bottom: 5%;
-  font-family: monospace;
+  font-family: Raleway,sans-serif;
   font-size: 70px;
   font-weight: 550;
-  color: white;
+  color: greenyellow;
 }
 .collection {
   margin: 10%;
@@ -42,6 +42,10 @@ body {
   height: fit-content;
 }
 
+
+#customer_service {
+  background-image: url('https://drive.google.com/file/d/13xHhrXG7p0nCcoN2l0SGh5sZEZZs1Rj7/view');
+}
 section {
   scroll-snap-align: center;
   display: flex;

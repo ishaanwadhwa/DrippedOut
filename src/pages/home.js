@@ -22,7 +22,9 @@ import CustService from "../pages/customer_service";
 import FAQ from "./FAQ";
 import video from "../videos/maindrippedoutvideo.mp4";
 import ImageCarousel from "../components/Collections/ImageCarousel";
-import gif from "./DripBKG.mp4";
+import gif from "./DripBKG.mov";
+import cs_bg from '../photos/black_crumpled.jpg';
+import purp_bg from '../photos/dark_purp.jpg';
 
 // const TABS = {
 //   about: <About />,
@@ -106,22 +108,23 @@ function Home(props) {
               </Row>
             </Container> */}
           </section>
-          <section id="customer_service" style={{ backgroundColor: "#7ff850" }}>
+          <section id="customer_service" style= {{backgroundImage: `url(${cs_bg})`, backgroundRepeat : 'no-repeat',  backgroundSize : 'cover', backgroundPosition : "center"}}>
             <FAQ />
           </section>
           <section
             id="contact_us"
-            style={{ justifyContent: "flex-start", backgroundColor: "#ea3cc6" }}
+            style={{ justifyContent: "flex-start",backgroundImage: `url(${purp_bg})`, backgroundRepeat : 'no-repeat',  backgroundSize : 'cover', backgroundPosition : "center"  }}
           >
             <Contact />
           </section>
           <section
             id="community"
             style={{
-              backgroundColor: "#2328f4",
+              backgroundColor: "white",
               justifyContent: "flex-start",
             }}
           >
+         
             <div className={styles.collection}>
               <div className={styles.sectionTitle}>Collections</div>
               {/* <ImageSlider slides={SliderData} /> */}
@@ -134,7 +137,7 @@ function Home(props) {
               backgroundColor: "lightyellow",
             }}
           >
-            Blog
+          <div className= {styles.sectionTitle}>COMING SOON </div>
           </section>
           <div className={styles.footer}>
             <Container fluid>

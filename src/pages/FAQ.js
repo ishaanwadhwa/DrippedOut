@@ -16,7 +16,8 @@ const FAQ = (props) => {
             <div className={styles.questionAnswer}>
               Each order is personalized according to the wants of the client.
               Exchange/refund of these orders is not possible as the work cannot
-              be undone. However minor changes can be accommodated if the client
+              be undone.
+             <br /> However minor changes can be accommodated if the client
               is unsatisfied.
             </div>
             <div className={styles.questionText}>
@@ -24,7 +25,9 @@ const FAQ = (props) => {
             </div>
             <div className={styles.questionAnswer}>
               The best way to clean custom shoes is with clear water. Avoid
-              scratches and rubbing on painted parts. You may use a repellent
+              scratches and rubbing on painted parts. 
+              <br />
+              You may use a repellent
               spray to protect the shoes.
             </div>
             <div className={styles.questionText}>

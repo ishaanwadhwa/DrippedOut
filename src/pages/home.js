@@ -22,9 +22,9 @@ import CustService from "../pages/customer_service";
 import FAQ from "./FAQ";
 import video from "../videos/maindrippedoutvideo.mp4";
 import ImageCarousel from "../components/Collections/ImageCarousel";
-import gif from "./DripBKG.mov";
+import gif from "../videos/DripBKG.mp4";
 import cs_bg from '../photos/black_crumpled.jpg';
-import purp_bg from '../photos/dark_purp.jpg';
+import purp_bg from '../photos/bottom.jpg';
 
 // const TABS = {
 //   about: <About />,
@@ -108,28 +108,53 @@ function Home(props) {
               </Row>
             </Container> */}
           </section>
-          <section id="customer_service" style= {{backgroundImage: `url(${cs_bg})`, backgroundRepeat : 'no-repeat',  backgroundSize : 'cover', backgroundPosition : "center"}}>
+          <section id='wrapper'
+          style= {{backgroundImage: `url(${cs_bg})`, backgroundRepeat : 'no-repeat',  backgroundSize : 'cover', backgroundPosition : "center"}}
+          >
+          <section id="customer_service" 
+          // style= {{backgroundImage: `url(${cs_bg})`, backgroundRepeat : 'no-repeat',  backgroundSize : 'cover', backgroundPosition : "center"}}
+          >
             <FAQ />
           </section>
           <section
             id="contact_us"
-            style={{ justifyContent: "flex-start",backgroundImage: `url(${purp_bg})`, backgroundRepeat : 'no-repeat',  backgroundSize : 'cover', backgroundPosition : "center"  }}
+            // style={{ justifyContent: "flex-start",backgroundImage: `url(${purp_bg})`, backgroundRepeat : 'no-repeat',  backgroundSize : 'cover', backgroundPosition : "center"  }}
           >
+
             <Contact />
+          </section>
           </section>
           <section
             id="community"
             style={{
               backgroundColor: "white",
-              justifyContent: "flex-start",
+             display : "flex",
+              // justifyContent : "flex-start",
+              // alignItems : "center",
+              height : "100vh",
             }}
           >
-         
-            <div className={styles.collection}>
-              <div className={styles.sectionTitle}>Collections</div>
+            <div className={styles.videoWrapper}>
+ 
+ <video
+             width="100vw"
+              height="100%"
+              style={{ zIndex: "0" }}
+              autoPlay
+              muted
+              className= {styles.bgvideo}
+
+            >
+              <source src={gif} type="video/mp4" />
+            </video>         
+            <div className={styles.collection} style={{zIndex : '10'}}>
+
+              <div className={styles.sectionTitle} style={{textAlign : 'center'}}>
+               Collections</div>
               {/* <ImageSlider slides={SliderData} /> */}
-              <ImageCarousel />
+              <ImageCarousel style={{zIndex : '10', width : '100vw'}}  />
             </div>{" "}
+            </div>
           </section>
           <section
             id="blog"

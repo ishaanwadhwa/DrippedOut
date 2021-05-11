@@ -6,12 +6,12 @@
   font-size: 70px;
   font-weight: 550;
   color: #66FF66  ;
-  text-shadow: 0 0 2px #fff, 0 0 1px #fff, 0 0 1px #66FF66
-  , 0 0 1px #66FF66
-  , 0 0 1px #66FF66
-  , 0 0 1px #66FF66
-  , 0 0 1px #66FF66
-  ;
+  // text-shadow: 0 0 2px #fff, 0 0 1px #fff, 0 0 1px #66FF66
+  // , 0 0 1px #66FF66
+  // , 0 0 1px #66FF66
+  // , 0 0 1px #66FF66
+  // , 0 0 1px #66FF66
+  // ;
   line-height: 75px;
   text-align: left;
   margin-bottom: 10px;
@@ -32,4 +32,24 @@
   font-weight: 400;
   color: white;
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px)
+{
+  .questionText {
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+  }
+  
+  .questionAnswer {
+    text-align: left;
+    line-height: 15px;
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 10px;
+  }
 }

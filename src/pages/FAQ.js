@@ -4,21 +4,23 @@ import { Container, Row, Col } from "react-bootstrap";
 import styles from "../styles/pages/faq.module.scss";
 import TopText from "../components/FAQ/TopFAQ";
 import questionImage from "../photos/question.png";
-
+import sprayCan from '../photos/sprayCan.png';
+import faq2 from '../photos/faq2.png';
+import faqhourglass from '../photos/hourglass.png'
+import box from '../photos/box.png';
 const FAQ = (props) => {
   return (
     <div className={styles.faq}>
       <Container fluid>
         <Row>
-          <Col md="12">
+          <Col md="8">
             <div className={styles.sectionTitle}>FAQ.</div>
             <div className={styles.questionText}>Can orders be returned?</div>
             <div className={styles.questionAnswer}>
               Each order is personalized according to the wants of the client.
               Exchange/refund of these orders is not possible as the work cannot
               be undone.
-             <br /> However minor changes can be accommodated if the client
-              is unsatisfied.
+           
             </div>
             <div className={styles.questionText}>
               How can I clean the shoes?
@@ -50,6 +52,23 @@ const FAQ = (props) => {
             <div className={styles.questionAnswer}>
               We offer payment through online methods only - Bank Transfer,
               Google Pay & Paytm.
+            </div>
+          </Col>
+          <Col md='4'>
+            <div className={styles.animationWrapper}>
+            <img src={faqhourglass} alt=""  className={styles.faq1}/>
+          
+            </div>
+            <div className={styles.animationWrapper2}>
+            <img src={sprayCan} alt=""  className={styles.sprayCan}/>
+          
+            </div>
+            <div className={styles.animationWrapper3}>
+            <img src={faq2} alt=""  className={styles.faq2}/>
+            </div>
+            <div className={styles.animationWrapper4}>
+            <img src={box} alt=""  className={styles.sprayCan}/>
+          
             </div>
           </Col>
         </Row>

@@ -1,6 +1,13 @@
 .contact {
-  margin: 3rem 0rem;
-  padding: 10px;
+  margin: 2rem 0rem;
+  padding: 2px;
+}
+
+
+.contactRight {
+  height: 80vh;
+  background-position: left;
+  background-size: cover;
 }
 @media only screen and (max-width: 768px) {
   .ContactInner {
@@ -11,3 +18,5 @@
     padding: 10px 0px;
   }
 }
+
+

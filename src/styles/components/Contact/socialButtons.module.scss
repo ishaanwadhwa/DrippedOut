@@ -13,7 +13,7 @@
   margin: 0 10px;
 }
 .social_menu ul li .fa {
-  text-align: center;
+    text-align: center;
 
   color: #000000;
   font-size: 25px;
@@ -34,6 +34,9 @@
   transition: 0.5s;
   transform: translate(0, 0px);
 }
+#fb {
+  border : 0.5px solid blue;
+}
 
 .social_menu ul li a i {
   padding-top: 30%;
@@ -47,15 +50,7 @@
 .social_menu ul li:nth-child(1) a:hover {
   background-color: #3b5999;
 }
+
 .social_menu ul li:nth-child(2) a:hover {
-  background-color: #55acee;
-}
-.social_menu ul li:nth-child(3) a:hover {
-  background-color: #e4405f;
-}
-.social_menu ul li:nth-child(4) a:hover {
-  background-color: #cd201f;
-}
-.social_menu ul li:nth-child(5) a:hover {
-  background-color: #0077b5;
+  background-color: #8a3ab9;
 }

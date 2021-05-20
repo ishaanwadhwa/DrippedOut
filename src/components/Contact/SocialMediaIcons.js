@@ -8,30 +8,17 @@ const SocialMediaIcons = () => {
     <div class={styles.social_menu}>
       <ul>
         <li>
-          <a href="" title="FACEBOOK">
+          <a href="https://www.facebook.com/Dripped-Out-109253134644436" title="FACEBOOK" style={{ border : "0.5px solid #4267B2" }}>
             <i class="fa fa-facebook"></i>
           </a>
         </li>
+        
         <li>
-          <a href="" title="TWITTER">
-            <i class="fa fa-twitter"></i>
-          </a>
-        </li>
-        <li>
-          <a href="" title="INSTAGRAM">
+          <a href="https://www.instagram.com/drippedout.in/?igshid=17vx2kt4ciaxv" target="_blank" title="INSTAGRAM" style={{border : '0.5px solid #8a3ab9	'}}>
             <i class="fa fa-instagram"></i>
           </a>
         </li>
-        <li>
-          <a href="" title="YOUTUBE">
-            <i class="fa fa-youtube"></i>
-          </a>
-        </li>
-        <li>
-          <a href="" title="LINKEDIN">
-            <i class="fa fa-linkedin"></i>
-          </a>
-        </li>
+       
       </ul>
     </div>
   );

@@ -25,7 +25,8 @@ import ImageCarousel from "../components/Collections/ImageCarousel";
 import gif from "../videos/DripBKG.mp4";
 import cs_bg from '../photos/black_crumpled.jpg';
 import purp_bg from '../photos/bottom.jpg';
-
+import FORM from './process';
+import Process from './community2';
 // const TABS = {
 //   about: <About />,
 //   product: <Product />,
@@ -69,6 +70,7 @@ function Home(props) {
             style={{
               alignItems: "center",
               backgroundColor: "white",
+  
             }}
           >
             <video
@@ -86,7 +88,8 @@ function Home(props) {
           </section>
           
 
-          <section id="home" style={{ backgroundColor: " #8f2cd1" }}>
+          <section id="home" style={{ backgroundColor: "white",
+       }}>
             <div className={styles.Home}>
             {/* <video
             width="100%"
@@ -109,7 +112,10 @@ function Home(props) {
             </Container> */}
           </section>
           <section id='wrapper'
-          style= {{backgroundImage: `url(${cs_bg})`, backgroundRepeat : 'no-repeat',  backgroundSize : 'cover', backgroundPosition : "center"}}
+          style= {{
+            // backgroundImage: `url(${cs_bg})`, backgroundRepeat : 'no-repeat',  backgroundSize : 'cover', backgroundPosition : "center"
+            backgroundColor : 'white'
+          }}
           >
           <section id="customer_service" 
           // style= {{backgroundImage: `url(${cs_bg})`, backgroundRepeat : 'no-repeat',  backgroundSize : 'cover', backgroundPosition : "center"}}
@@ -149,20 +155,27 @@ function Home(props) {
             </video>         
             <div className={styles.collection} style={{zIndex : '10'}}>
 
-              <div className={styles.sectionTitle} style={{textAlign : 'center'}}>
-               Collections</div>
+              <p className={styles.sectionTitles} style={{textAlign : 'center'}}>
+               Collections</p>
               {/* <ImageSlider slides={SliderData} /> */}
               <ImageCarousel style={{zIndex : '10', width : '100vw'}}  />
             </div>{" "}
             </div>
           </section>
+          <section id="community2" style={{backgroundColor: "white"}}>
+              <Process />
+          </section>
           <section
             id="blog"
             style={{
-              backgroundColor: "lightyellow",
+              backgroundColor: "white",
             }}
           >
-          <div className= {styles.sectionTitle}>COMING SOON </div>
+
+            <div className={styles.contactForm}>
+          
+<FORM />
+</div>
           </section>
           <div className={styles.footer}>
             <Container fluid>

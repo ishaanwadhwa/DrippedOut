@@ -85,7 +85,7 @@ const ImageCarousel = () => {
             <div key={index}>
               <img
                 onClick={() => photoClickedHandler(image.image)}
-                style={{ width: "95%", height: 300, margin: "auto" }}
+                style={{ width: "80%", height: 'auto', margin: "auto" }}
                 src={image.image}
                 class="img-fluid mx-auto d-block"
                 alt="img2"

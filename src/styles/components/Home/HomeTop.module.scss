@@ -7,9 +7,11 @@
   display: flex;
 }
 .ImageWrapper {
+  
   text-align: center;
 }
 .HomeImage {
+  text-align: center;
   transition: 1s;
   transform: scale(1); /* vendorless fallback */
   -o-transition: 1s; /* opera */
@@ -17,7 +19,6 @@
   -moz-transition: 1s; /* Firefox */
   -webkit-transition: 1s; /*safari and chrome */
 
-  width: 362px;
   height: 300px;
 }
 .HomeImage:hover {
@@ -25,25 +26,30 @@
   transition: 1s;
 }
 .sectionTitle {
-  font-family: "Raleway", sans-serif;
+  font-family: "Druk Wide Bold", sans-serif;
+
   font-size: 70px;
   font-weight: 550;
-  color: white;
+  color: #66FF66  ;
   line-height: 75px;
+  padding-bottom: 10px;
 }
 
 .sectionText {
-  line-height: 17px;
-  font-size: 15px;
+
+  font-family: 'Montserrat';
+  line-height: 24px;
+  font-size: 18px;
   font-weight: 500;
-  color: white;
+  color: black;
   text-align: left;
+  margin-bottom: 70px;
 }
 
 .sectionSubTitle {
   font-size: 30px;
   font-weight: 550;
-  color: white;
+  color: black;
 }
 
 .Left {
@@ -56,17 +62,26 @@
 
 @media only screen and (max-width: 768px) {
   .sectionTitle {
-    font-size: 30px;
-    line-height: 35px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .sectionText {
+    font-family: 'Montserrat';
+
+    font-size: 15px;
+    padding-bottom: 0px;
+    line-height: 20px;
   }
   .HomeImage {
     transition: 1s;
-    transform: scale(0.4);
+    transform: scale(0.6);
   }
   .HomeImage:hover {
     transform: rotate(25deg);
   }
   .ImageWrapper {
+    align-items: left;
     text-align: center;
   }
 }

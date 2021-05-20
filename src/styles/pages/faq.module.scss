@@ -2,7 +2,7 @@
   margin: 3rem 1rem;
 }
 .sectionTitle {
-  font-family: "Raleway", sans-serif;
+  font-family: "Druk Wide Bold", sans-serif;
   font-size: 70px;
   font-weight: 550;
   color: #66FF66  ;
@@ -14,24 +14,91 @@
   // ;
   line-height: 75px;
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .questionText {
+  font-family: 'Montserrat';
+  margin-bottom: 8px;
   line-height: 30px;
   font-size: 30px;
   font-weight: 500;
-  color: white;
+  color: black;
   text-align: left;
 }
 
 .questionAnswer {
+  font-family: 'Montserrat';
   text-align: left;
-  line-height: 22px;
+  line-height: 28px;
   font-size: 20px;
   font-weight: 400;
-  color: white;
-  margin-bottom: 10px;
+  color: black;
+  margin-bottom: 25px;
+}
+@keyframes spraycan {
+  50%  {transform: rotate(25deg);}
+}
+@keyframes spraycan2 {
+  0% {left:0px; top:0px}
+  50% {left : 2px; top : 20px;}
+  100% {left:7px; top:0px}
+}
+@keyframes faq3 {
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(-20deg);}
+}
+
+.animationWrapper{
+  text-align: right;
+  animation-name: faq3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  width: fit-content;
+
+}
+.animationWrapper2 {
+  animation-name: spraycan;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  // transform: scaleX(-1) rotate(-30deg);
+  text-align: right;
+}
+.animationWrapper3 {
+  position: relative;
+  animation-name: spraycan2;
+
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  text-align: left;
+// transform: rotate(-25deg);
+}
+.animationWrapper4 {
+  position: relative;
+  animation-name: spraycan2;
+
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  text-align: right;
+// transform: rotate(-25deg);
+}
+.faq1 {
+  height: 150px;
+}
+.faq2 {
+  transform: rotate(180deg);
+  height: 280px;
+}
+
+.sprayCan{
+
+  transform: rotate(0deg);
+
+  height: 180px;
 }
 
 @media only screen and (max-width: 768px)
@@ -40,7 +107,7 @@
     line-height: 30px;
     font-size: 15px;
     font-weight: 500;
-    color: white;
+    color: black;
     text-align: left;
   }
   
@@ -49,7 +116,7 @@
     line-height: 15px;
     font-size: 10px;
     font-weight: 400;
-    color: white;
+    color: black;
     margin-bottom: 10px;
   }
 }

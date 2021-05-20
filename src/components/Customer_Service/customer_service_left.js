@@ -14,9 +14,11 @@ const customerService = (props) => {
             <div className={styles.sectionSubTitle}>
               Interested in up-cycling your pre-owned shoes?
             </div>
+            <br />
             <div className={styles.sectionText}>
               Contact us on email/Instagram to send us your sneakers or apparel
               for the Dripped Out team to work their magic on.
+            
             </div>
             <div className={styles.sectionText}>
               Reach out to us on E-mail/Instagram/Whatsapp with a query. We will
@@ -29,7 +31,7 @@ const customerService = (props) => {
             </div>
             <br />
             <div className={styles.sectionText}>
-              <pre style={{ color: "white" }}>
+              <pre style={{ color: "black" }}>
                 Email ID-
                 <br />
                 <a
@@ -47,6 +49,7 @@ const customerService = (props) => {
                   {" "}
                   param@drippedout.in
                 </a>
+                <br />
                 <br />
                 Phone no. - 9082536576
                 <br />

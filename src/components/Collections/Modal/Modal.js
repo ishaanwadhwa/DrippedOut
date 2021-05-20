@@ -14,12 +14,14 @@ const Modal = (props) => {
   return (
     <Aux>
       <Backdrop onClick={props.hide} />
-      <Bounce>
+      {/* <Bounce> */}
         <div className={classes.Modal}>
-          <img src={props.image} />
+          <a href = {imgSrc}>
+          <img src={props.image} className={classes.imageShow} />
           {/* <button >IG</button> */}
+          </a>
         </div>
-      </Bounce>
+      {/* </Bounce> */}
     </Aux>
   );
 };

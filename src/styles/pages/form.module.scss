@@ -1,0 +1,90 @@
+.form {
+  margin-top: 0;
+
+    align-items: center;
+    // text-align: center;
+  }
+
+  .formTile {
+    margin : auto;
+    height: auto ;
+background-color: white;    
+width: 80%;
+  }
+
+  .formTile:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 1s;
+  }
+  .formInternal {
+    align-items: center;
+    text-align: center;
+    padding : 20px;
+    margin : 5%;
+  }
+  .labels {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .fields{
+    font-family: 'Montserrat';    
+    font-size: 12px;
+    font-weight: 400;
+    align-items: center;
+    margin-bottom: 15px;
+
+
+  }
+
+  .inputs {
+    background:rgb(234, 234, 234);
+    padding : 5px;
+    text-align: center;
+    border-radius: 20px;
+    border :1px solid #CCC;
+
+    width: 60%;
+ 
+
+
+  }
+  .messageinput {
+    font-family: 'Montserrat';
+    background:rgb(234, 234, 234);
+
+    border-radius: 20px;
+    border : 1px solid #CCC;
+    height: 70px;
+    text-align: center;
+    width: 60%;
+  }
+
+  .submitButton {
+    padding : 5px;
+    margin-top: 2%;
+    height: auto;
+    width: 30%;
+    border: none;
+    border-radius: 20px;
+    background-color: #8f2cd1;
+    color: white;
+    align-items: center;
+    text-align: center;
+  }
+
+  
+
+
+  .formTitle{
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: "Druk Wide Bold", sans-serif;
+
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 550;
+    color: #8f2cd1;
+    align-items: center;
+  }

@@ -7,11 +7,38 @@
   width: 100%;
   height: 100%;
 }
+.contactForm {
+  margin-top: 5%;
+}
+.smallerSectionTitle {
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: Raleway,sans-serif;
+  font-size: 50px;
+  line-height: 75px;
+  font-weight: 550;
+  color: greenyellow;
+  align-items: center;
+}
+
+
+.sectionTitles {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  font-family: "Druk Wide Bold", sans-serif;
+  font-size: 70px;
+  font-weight: 550;
+  color: greenyellow;
+  align-items: center;
+  text-emphasis: white;
+
+}
 .sectionTitle {
   text-align: center;
   padding-bottom: 20px;
   margin-bottom: 10px;
-  font-family: Raleway,sans-serif;
+  font-family: "Druk Wide Bold", sans-serif;
   font-size: 70px;
   font-weight: 550;
   color: greenyellow;
@@ -74,7 +101,7 @@ body {
 
 }
 section {
-  scroll-snap-align: center;
+  scroll-snap-align: start;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -139,6 +166,10 @@ a ul {
   display: none;
 }
 @media only screen and (max-width: 768px) {
+  .smallerSectionTitle {
+    font-size: 40px;
+    line-height: 45px;
+  }
   .NavBarInner {
     font-size: 12px;
     display: flex;

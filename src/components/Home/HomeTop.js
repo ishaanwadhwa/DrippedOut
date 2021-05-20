@@ -5,6 +5,7 @@ import styles from "../../styles/components/Home/HomeTop.module.scss";
 import yeezy from "../../photos/yeezy.png";
 import { Zoom, Fade } from "react-reveal";
 import { useSpring, animated, Transition } from "react-spring";
+import animated_logo from '../../videos/preplay.mp4';
 const calc = (x, y) => [
   -(y - window.innerHeight / 2) / 20,
   (x - window.innerWidth / 2) / 20,
@@ -52,25 +53,20 @@ const HomeTop = (props) => {
                       "new without buying new".
                     </div>
                   </Col>
-                  {/* <Col md="6">
-                    <div className={styles.sectionSubTitle}>Our Objective</div>
-                    <div className={styles.sectionText}>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem Ipsum is that it
-                      has a more-or-less normal distribution of letters, as
-                      opposed to using 'Content here, content here', making it
-                      look like readable English.
-                    </div>
-                  </Col> */}
+                 
                 </Row>
               </div>
             </Fade>
           </Col>
           <Col md="6">
-            <Fade right>
               <div className={styles.ImageWrapper}>
-                <img className={styles.HomeImage} src={yeezy} alt="yeezy" />
+                <video className={styles.HomeImage}
+                height="350px"
+                 autoPlay
+                 muted>
+                  <source src={animated_logo} type="video/mp4" />
+                </video>
+                {/* <img className={styles.HomeImage} src={yeezy} alt="yeezy" /> */}
 
                 {/* <animated.div
                     class={styles.card}
@@ -99,7 +95,6 @@ const HomeTop = (props) => {
                     style={{ transform: props.xy.interpolate(trans4) }}
                   /> */}
               </div>
-            </Fade>
           </Col>
         </Row>
       </Container>

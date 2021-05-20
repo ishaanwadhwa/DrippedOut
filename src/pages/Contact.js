@@ -5,6 +5,7 @@ import styles from "../styles/pages/contact.module.scss";
 import CustLeft from "../components/Customer_Service/customer_service_left";
 import SocialMedia from "../components/Contact/SocialMediaIcons";
 import { Zoom, Fade } from "react-reveal";
+import lineShoe from '../photos/lineShoe.png';
 
 const Contact = () => {
   return (
@@ -14,18 +15,21 @@ const Contact = () => {
           <Col md="12">
             <div className={styles.ContactInner}>
               <Row>
-                <Col md="9">
+                <Col md="8">
                   <div>
                     <Fade left>
                       <CustLeft />
                     </Fade>
                   </div>
                 </Col>
-                <Col md="3">
-                  <div>
+                <Col md="4">
+                  <div className={styles.contactRight} style={{ backgroundImage: `url(${lineShoe})` }}
+
+>
                     <Fade right>
                       <SocialMedia />
                     </Fade>
+                
                   </div>
                 </Col>
               </Row>

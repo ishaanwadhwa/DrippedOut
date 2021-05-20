@@ -1,14 +1,34 @@
 .Modal {
-  position: fixed;
+  position: absolute;
   z-index: 1000;
   width: auto;
-  box-shadow: 1px 1px 1px black;
+  height: auto;
   margin: auto;
-  left: 30%;
-  top: 30%;
+  left: 20%;
+   top: 20%; 
   box-sizing: border-box;
 
-  transition: 0.5s;
+  transition: 0.2s;
+}
+.Modal:hover {
+  transform: scale(1.1);
+  transition: 1s;
+
+}
+.imageShow {
+  top: 0;
+  width: auto;
+  height: 70vh;
+  transition: 1s;
+  transform: scale(1); /* vendorless fallback */
+  -o-transition: 1s; /* opera */
+  -ms-transition: 1s; /* IE 10 */
+  -moz-transition: 1s; /* Firefox */
+  -webkit-transition: 1s; /*safari and chrome */
+}
+.imageShow:hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 @media (max-width: 768px) {

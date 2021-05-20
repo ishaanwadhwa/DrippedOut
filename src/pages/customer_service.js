@@ -8,9 +8,10 @@ const customerService = () => {
     <div className={styles.customerService}>
       <Container fluid>
         <Row>
-          <Col md="9">
+          <Col md="8">
             <CustLeft />
           </Col>
+         
         </Row>
       </Container>
     </div>
